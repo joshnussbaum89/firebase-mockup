@@ -1,0 +1,32 @@
+// ======================================
+//  Mixins
+// ======================================
+
+// Center element
+@mixin center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Flex container
+@mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $align: null) {
+  display: $disp;
+  flex-direction: $dir;
+  flex-wrap: $wrap;
+  justify-content: $just;
+  align-items: $align;
+}
+
+// Max width
+@mixin max-width {
+  max-width: 100%;
+}
+
+// Media query
+
+@mixin mq {
+  @media (min-width: $md) {
+    @content;
+  }
+}

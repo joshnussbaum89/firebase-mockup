@@ -1,0 +1,45 @@
+// ======================================
+//  Variables
+// ======================================
+
+// Colors
+
+$color-primary: #58e1c1;
+$color-secondary: #777;
+$color-white: #fff;
+$color-border: #ccc;
+
+// Button Colors
+
+$color-default: #51ddfc;
+$color-default-light: lighten($color-default, 15%);
+
+$button-error: #e4757a;
+$button-error-light: lighten($button-error, 15%);
+
+$button-info: #927bc1;
+$button-info-light: lighten($button-info, 15%);
+
+$button-success: #63cc82;
+$button-success-light: lighten($button-success, 15%);
+
+$button-warning: #fd7856;
+$button-warning-light: lighten($button-warning, 15%);
+
+// Grid Colors
+
+$light-purple: #deb2ee;
+$light-blue: #7ee6fd;
+$mint-green: #88d9a0;
+$grey-blue: #4da2bb;
+$salmon: #ec9fa3;
+$light-orange: #fd9f85;
+$light-mint-green: #80e8d1;
+
+// Fonts
+
+$font-primary: "Lato", sans-serif;
+
+// Breakpoints
+
+$md: 768px;
