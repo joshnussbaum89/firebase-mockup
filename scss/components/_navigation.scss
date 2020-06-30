@@ -2,3 +2,23 @@
 /*              Navigation                       */
 /* ============================================= */
 
+nav {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: .1rem;
+    color: $color-text;
+}
+
+ul {
+    margin-top: 1.5rem;
+}
+
+li {
+    padding-bottom: .5rem;
+}
+
+a:visited {
+    color: $color-text;
+}
