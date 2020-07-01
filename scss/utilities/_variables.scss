@@ -4,16 +4,25 @@
 
 // Colors
 
-$color-primary: #58e1c1;
-$color-secondary: #777;
-$color-white: #fff;
-$color-border: #ccc;
-$color-text: #51575b;
+$mint: #58e1c1;
+$aqua: #52bab3;
+$mario: #5db1ad;
+$ocean: #3dafbe; 
+$text: #51575b;
+$grey: #777;
+$white: #fff;
+$border: #ccc;
+$orange: #ff784f;
+$mountain: #d36a62;
+$mountain-bold: #a33830;
+$thouse: #3659a2;
+$text-field: #4683af;
+
 
 // Button Colors
 
-$color-default: #51ddfc;
-$color-default-light: lighten($color-default, 15%);
+$button-default: #51ddfc;
+$button-default-light: lighten($button-default, 15%);
 
 $button-error: #e4757a;
 $button-error-light: lighten($button-error, 15%);
@@ -27,6 +36,9 @@ $button-success-light: lighten($button-success, 15%);
 $button-warning: #fd7856;
 $button-warning-light: lighten($button-warning, 15%);
 
+$button-blue: #4a89ca;
+$button-blue-light: lighten($button-blue, 15%);
+
 // Grid Colors
 
 $light-purple: #deb2ee;
@@ -37,14 +49,13 @@ $salmon: #ec9fa3;
 $light-orange: #fd9f85;
 $light-mint-green: #80e8d1;
 
-// SVGs
-
-
-
 // Fonts
 
 $font-primary: "Lato", sans-serif;
 
 // Breakpoints
 
+$sm: 576px;
 $md: 768px;
+$lg: 992px;
+$xlg: 1200px;

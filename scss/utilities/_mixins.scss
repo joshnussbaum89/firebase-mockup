@@ -25,8 +25,26 @@
 
 // Media query
 
-@mixin mq {
+@mixin mq-sm {
+  @media (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin mq-md {
   @media (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin mq-lg {
+  @media (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin mq-xlg {
+  @media (min-width: $sm) {
     @content;
   }
 }
