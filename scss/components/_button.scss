@@ -2,3 +2,18 @@
 /*              Buttons                          */
 /* ============================================= */
 
+.download {
+    color: white;
+    padding: 10px 20px;
+    background-color: $ocean;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px $grey;
+    outline: none;
+}
+
+.download:active {
+    background-color: $ocean-light;
+    outline: none;
+}
+
