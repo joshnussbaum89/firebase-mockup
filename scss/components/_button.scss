@@ -4,16 +4,15 @@
 
 .download {
     color: white;
+    font-weight: 300;
     padding: 10px 20px;
     background-color: $ocean;
     border: none;
     border-radius: 5px;
     box-shadow: 2px 2px 4px $grey;
     outline: none;
+    &:active {
+        background-color: $ocean-light;
+        outline: none;
+    }
 }
-
-.download:active {
-    background-color: $ocean-light;
-    outline: none;
-}
-

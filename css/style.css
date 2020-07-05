@@ -358,15 +358,35 @@ ul {
 a {
   text-decoration: none;
 }
+a:visited {
+  color: #51575b;
+}
 
 /* ============================================= */
 /*              Body                            */
 /* ============================================= */
+.hero {
+  margin: 4rem 0 0;
+  border-top: 1px solid #777;
+  padding-top: 2rem;
+  margin: auto;
+  width: 85%;
+}
+.hero .site-description {
+  margin: 2rem 0;
+  font-weight: 300;
+}
+
+.hero-heading {
+  font-size: 2.5rem;
+}
+
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
 .download {
   color: white;
+  font-weight: 300;
   padding: 10px 20px;
   background-color: #3dafbe;
   border: none;
@@ -374,7 +394,6 @@ a {
   box-shadow: 2px 2px 4px #777;
   outline: none;
 }
-
 .download:active {
   background-color: #75c8d3;
   outline: none;
@@ -386,6 +405,12 @@ a {
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
+.firebase-offers {
+  background-color: #4a463f;
+  border-top: 4px solid #ffca99;
+  padding: 100px;
+}
+
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
@@ -398,11 +423,19 @@ a {
   margin: 1rem 0.5rem;
 }
 
+.firebase img {
+  width: 100%;
+  margin: auto;
+  max-width: 800px;
+  padding: 3rem 1.5rem;
+}
+
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
 nav {
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 h1 {
@@ -413,13 +446,9 @@ h1 {
 ul {
   margin-top: 1.5rem;
 }
-
-li {
+ul li {
+  font-weight: 300;
   padding-bottom: 0.5rem;
-}
-
-a:visited {
-  color: #51575b;
 }
 
 /* ============================================= */
