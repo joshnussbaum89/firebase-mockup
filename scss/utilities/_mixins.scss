@@ -38,13 +38,13 @@
 }
 
 @mixin mq-lg {
-  @media (min-width: $sm) {
+  @media (min-width: $lg) {
     @content;
   }
 }
 
 @mixin mq-xlg {
-  @media (min-width: $sm) {
+  @media (min-width: $xlg) {
     @content;
   }
 }

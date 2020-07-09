@@ -405,10 +405,55 @@ a:visited {
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
-.firebase-offers {
+.main-footer {
   background-color: #4a463f;
   border-top: 4px solid #ffca99;
-  padding: 100px;
+  padding: 100px 75px;
+}
+
+.footer-heading {
+  text-align: center;
+  font-weight: 100;
+  color: #fff;
+}
+.footer-heading .footer-span-one {
+  font-weight: 400;
+  color: #ffca99;
+}
+.footer-heading .footer-span-two {
+  font-weight: 400;
+}
+
+.footer-blurbs {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blurb-item {
+  padding: 2rem 0;
+  margin: auto;
+  width: 80%;
+}
+.blurb-item h3 {
+  color: #ffca99;
+}
+.blurb-item p {
+  color: #fff;
+  font-weight: 200;
+  margin-top: 0.8rem;
+}
+
+.fa-tachometer-alt,
+.fa-lock,
+.fa-check,
+.fa-buffer,
+.fa-box-open,
+.fa-network-wired {
+  color: white;
+  position: relative;
+  right: 40px;
+  top: 25px;
 }
 
 /* ============================================= */
@@ -454,5 +499,15 @@ ul li {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
+@media (min-width: 768px) {
+  .footer-blurbs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .footer-blurbs .blurb-item {
+    width: 40%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

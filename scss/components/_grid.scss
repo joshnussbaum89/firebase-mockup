@@ -2,8 +2,52 @@
 /*              Grid System                      */
 /* ============================================= */
 
-.firebase-offers {
+.main-footer {
     background-color: $dark-background;
     border-top: 4px solid $heading-tan;
-    padding: 100px;
+    padding: 100px 75px;
+}
+
+.footer-heading {
+    text-align: center;
+    font-weight: 100;
+    color: $white;
+    .footer-span-one {
+        font-weight: 400;
+        color: $heading-tan;
+    }
+    .footer-span-two {
+        font-weight: 400;
+    }
+}
+
+.footer-blurbs {
+    margin-top: 20px;
+    @include flexy($dir: column);
+}
+
+.blurb-item {
+    padding: 2rem 0;
+    margin: auto;
+    width: 80%;
+    h3 {
+        color: $heading-tan;
+    }
+    p {
+        color: $white;
+        font-weight: 200;
+        margin-top: .8rem;
+    }
+}
+
+.fa-tachometer-alt,
+.fa-lock,
+.fa-check,
+.fa-buffer,
+.fa-box-open,
+.fa-network-wired  {
+    color: white;
+    position: relative;
+    right: 40px;
+    top: 25px;
 }

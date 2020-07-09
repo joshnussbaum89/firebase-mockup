@@ -2,3 +2,19 @@
 /*              Media Queries                    */
 /* ============================================= */
 
+// 768px
+
+@include mq-md {
+    .footer-blurbs {
+        @include flexy($dir: row, $wrap: wrap);
+        .blurb-item {
+            width: 40%;
+        }
+    }
+}
+
+// 992px
+
+@include mq-lg {
+
+}
