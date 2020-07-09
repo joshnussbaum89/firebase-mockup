@@ -5,16 +5,43 @@
 // 768px
 
 @include mq-md {
+    .main-nav {
+        @include flexy($dir: row, $wrap: wrap, $just: space-around, $align: center);
+        margin-bottom: 1rem;
+    }
+
+    .nav-items {
+        @include flexy($dir: row);
+        li {
+            padding-left: 1rem;
+        }
+    }
+
     .footer-blurbs {
-        @include flexy($dir: row, $wrap: wrap);
+        @include flexy($dir: row, $wrap: wrap, $just: space-around, $align: center);
         .blurb-item {
             width: 40%;
         }
     }
+
+    .hero {
+        @include flexy($dir: row, $wrap: wrap, $just: space-between, $align: center);
+        border: none;
+        padding: 0;
+    }
+    
+    .firebase {
+        width: 40%;
+    }
+    
 }
 
 // 992px
 
 @include mq-lg {
-
+    .footer-blurbs {
+        .blurb-item {
+            width: 30%;
+        }
+    }
 }
