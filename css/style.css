@@ -400,10 +400,12 @@ a {
   border-radius: 5px;
   box-shadow: 2px 2px 4px #777;
   outline: none;
+  transition: 100ms;
 }
 .download:active {
   background-color: #75c8d3;
   outline: none;
+  transition: 100ms;
 }
 
 /* ============================================= */
