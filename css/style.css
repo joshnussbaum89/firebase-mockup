@@ -357,9 +357,16 @@ ul {
 
 a {
   text-decoration: none;
-}
-a:visited {
   color: #51575b;
+  transition: 100ms;
+}
+
+.nav-items a:hover {
+  font-size: 17px;
+  transition: 100ms;
+  opacity: 0.8;
+  color: #3dafbe;
+  text-shadow: 2px 2px 2px #ccc;
 }
 
 /* ============================================= */
@@ -467,10 +474,15 @@ a:visited {
   width: 20px;
 }
 
+.firebase-flex {
+  display: flex;
+}
+
 .firebase img {
   width: 100%;
   margin: auto;
-  max-width: 800px;
+  max-width: 500px;
+  min-width: 400px;
   padding: 3rem 1.5rem;
 }
 

@@ -10,10 +10,15 @@
     width: 20px;
 }
 
+.firebase-flex {
+    @include flexy();
+}
+
 .firebase img {
     width: 100%;
     margin: auto;
-    max-width: 800px;
+    max-width: 500px;
+    min-width: 400px;
     padding: 3rem 1.5rem;
 }
 

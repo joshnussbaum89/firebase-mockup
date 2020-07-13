@@ -19,7 +19,14 @@ ul {
 
 a {
 	text-decoration: none;
-	&:visited {
-		color: $text;
-	}
+	color: $text;
+	transition: 100ms;
+}
+
+.nav-items a:hover {
+	font-size: 17px;
+	transition: 100ms;
+	opacity: .8;
+	color: $ocean;
+	text-shadow: 2px 2px 2px $border;
 }
