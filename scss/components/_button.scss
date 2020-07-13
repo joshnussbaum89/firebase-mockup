@@ -12,9 +12,12 @@
     box-shadow: 2px 2px 4px $grey;
     outline: none;
     transition: 100ms;
+    &:hover {
+        background-color: $mint;
+    }
     &:active {
-        background-color: $ocean-light;
-        outline: none;
-        transition: 100ms;
+        color: $white;
+        position: relative;
+        top: 1px;
     }
 }

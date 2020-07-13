@@ -402,10 +402,13 @@ a {
   outline: none;
   transition: 100ms;
 }
+.download:hover {
+  background-color: #58e1c1;
+}
 .download:active {
-  background-color: #75c8d3;
-  outline: none;
-  transition: 100ms;
+  color: #fff;
+  position: relative;
+  top: 1px;
 }
 
 /* ============================================= */
@@ -417,7 +420,7 @@ a {
 .main-footer {
   background-color: #4a463f;
   border-top: 4px solid #ffca99;
-  padding: 100px 75px;
+  padding: 100px 75px 50px;
 }
 
 .footer-heading {
@@ -486,6 +489,22 @@ a {
   max-width: 500px;
   min-width: 400px;
   padding: 3rem 1.5rem;
+}
+
+.back-to-top {
+  color: #777;
+  display: inline;
+  display: flex;
+  margin: 3rem 0 0;
+  padding: 0;
+}
+.back-to-top a:hover {
+  background-color: #f22f46;
+  padding: 2px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 2px 2px 100px #fff;
 }
 
 /* ============================================= */

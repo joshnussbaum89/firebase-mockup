@@ -22,3 +22,20 @@
     padding: 3rem 1.5rem;
 }
 
+.back-to-top {
+    color: $grey;
+    display: inline;
+    @include flexy();
+    margin: 3rem 0 0;
+    padding: 0;
+    a:hover {
+        background-color: $hot-red;
+        padding: 2px;
+        border: 1px solid $white;
+        border-radius: 50%;
+        color: $white;
+        box-shadow: 2px 2px 100px $white;
+    }
+}
+
+
