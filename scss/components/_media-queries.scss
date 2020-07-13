@@ -17,6 +17,15 @@
         }
     }
 
+    .fa-twitter,
+    .fa-github {
+        margin: 2rem 1rem 1rem 0;
+    }
+
+    .nav-svg {
+        @include flexy($dir: row);
+    }
+
     .footer-blurbs {
         @include flexy($dir: row, $wrap: wrap, $just: space-around, $align: center);
         .blurb-item {
