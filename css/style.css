@@ -403,7 +403,7 @@ a {
   transition: 100ms;
 }
 .download:hover {
-  background-color: #58e1c1;
+  background-color: #f22f46;
 }
 .download:active {
   color: #fff;
