@@ -401,6 +401,7 @@ a {
   box-shadow: 2px 2px 4px #777;
   outline: none;
   transition: 100ms;
+  cursor: pointer;
 }
 .download:hover {
   background-color: #f22f46;

@@ -12,6 +12,7 @@
     box-shadow: 2px 2px 4px $grey;
     outline: none;
     transition: 100ms;
+    cursor: pointer;
     &:hover {
         background-color: $hot-red;
     }
