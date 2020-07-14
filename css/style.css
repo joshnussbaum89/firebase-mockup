@@ -399,7 +399,6 @@ a {
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 4px #777;
-  outline: none;
   transition: 100ms;
   cursor: pointer;
 }
@@ -550,6 +549,11 @@ ul li {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 1px 1px 10px #ccc;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
   }
 
   .nav-items {
@@ -588,7 +592,7 @@ ul li {
     justify-content: space-between;
     align-items: center;
     border: none;
-    padding: 0;
+    padding-top: 4rem;
   }
 
   .firebase {

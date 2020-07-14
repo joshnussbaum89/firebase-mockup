@@ -8,6 +8,11 @@
     .main-nav {
         @include flexy($dir: row, $wrap: wrap, $just: space-around, $align: center);
         margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        box-shadow: 1px 1px 10px $border;
+        position: fixed;
+        width: 100%;
+        background-color: $white;
     }
 
     .nav-items {
@@ -26,21 +31,21 @@
         @include flexy($dir: row);
     }
 
+    .hero {
+        @include flexy($dir: row, $wrap: wrap, $just: space-between, $align: center);
+        border: none;
+        padding-top: 4rem;
+    }
+
+    .firebase {
+        width: 40%;
+    }
+    
     .footer-blurbs {
         @include flexy($dir: row, $wrap: wrap, $just: space-around, $align: center);
         .blurb-item {
             width: 40%;
         }
-    }
-
-    .hero {
-        @include flexy($dir: row, $wrap: wrap, $just: space-between, $align: center);
-        border: none;
-        padding: 0;
-    }
-    
-    .firebase {
-        width: 40%;
     }
     
 }
