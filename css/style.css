@@ -538,6 +538,10 @@ ul li {
   flex-direction: column;
 }
 
+.main-nav {
+  background-color: #fff;
+}
+
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
@@ -550,6 +554,7 @@ ul li {
     align-items: center;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
+    box-shadow: 1px 1px 10px #ccc;
   }
 
   .nav-items {

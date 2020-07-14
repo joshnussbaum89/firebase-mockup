@@ -3,9 +3,12 @@ $("button").click(function () {
     alert('Are you sure you want to download?');
 });
 
-//ADD STICKY NAV
+//STICKY NAV
+
+//media query min-width: 768px
 
 const mq = window.matchMedia("(min-width: 768px)");
+const width = window.innerWidth;
 
 function screenSize(e) {
     if (e.matches) {
@@ -16,6 +19,17 @@ function screenSize(e) {
     }
 }
 
+function checkSize() {
+    if (width > 769) {
+        $('.main-nav').sticky();
+    }
+    else {
+        screenSize();
+    }
+}
+
 mq.addListener(screenSize);
+checkSize();
+screenSize();
 
 //ADD DYNAMIC SCROLLING, EITHER TRANSITIONS OR DIFFERENT SCROLLBAR
