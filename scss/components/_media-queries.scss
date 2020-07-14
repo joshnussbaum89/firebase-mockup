@@ -9,10 +9,10 @@
         @include flexy($dir: row, $wrap: wrap, $just: space-around, $align: center);
         margin-bottom: 1rem;
         padding-bottom: 1rem;
-        box-shadow: 1px 1px 10px $border;
-        position: fixed;
-        width: 100%;
-        background-color: $white;
+        // box-shadow: 1px 1px 10px $border;
+        // position: fixed;
+        // width: 100%;
+        // background-color: $white;
     }
 
     .nav-items {
